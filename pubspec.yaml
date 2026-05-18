@@ -1,0 +1,30 @@
+name: app_phoenix
+description: Aplicativo de controle do robo Bia (PHX-1) - Phoenix Unicamp
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_reactive_ble: ^5.3.1
+  provider: ^6.1.1
+  fl_chart: ^0.66.0
+  shared_preferences: ^2.2.2
+  permission_handler: ^11.3.0
+  google_fonts: ^6.1.0
+  share_plus: ^7.2.1
+  path_provider: ^2.1.2
+  vibration: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
